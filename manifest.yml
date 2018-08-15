@@ -1,0 +1,8 @@
+applications:
+- path: target/GreetCustom.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: hello-bluemix-taira-12345
+  host: hello-bluemix-taira-12345
+  disk_quota: 1024M
